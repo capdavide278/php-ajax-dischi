@@ -14,12 +14,12 @@
 </head>
 <body>
     <?php
-    foreach($dischi as $disco) { ?>
+    foreach($dischi as $album) { ?>
         <div>
-            <div><img src="<?= $disco['poster'] ?>"/></div>
-            <div><?= $disco['title'] ?></div>
-            <div><?= $disco['author'] ?></div>
-            <div><?= $disco['year'] ?></div>
+            <div><img src="<?= $album['poster'] ?>"/></div>
+            <div><?= $album['title'] ?></div>
+            <div><?= $album['author'] ?></div>
+            <div><?= $album['year'] ?></div>
         </div>
         <?
     } ?>
